@@ -1,4 +1,4 @@
-package me.daehokimm.notiongaproxy
+package me.daehokimm.gaproxy
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
