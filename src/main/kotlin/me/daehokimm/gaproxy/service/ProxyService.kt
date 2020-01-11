@@ -29,6 +29,6 @@ class ProxyService (
                 .plus("tid=$trackingId&")
                 .plus("cid=${hitInfo.userHost}&")
                 .plus("t=pageview&")
-                .plus("dp=${hitInfo.targetPage.replace("/", "%2F")}")
+                .plus("dp=%2F${hitInfo.targetPage}")
     }
 }
