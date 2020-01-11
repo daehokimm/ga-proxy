@@ -1,6 +1,6 @@
-package me.daehokimm.notiongaproxy.service
+package me.daehokimm.gaproxy.service
 
-import me.daehokimm.notiongaproxy.dto.Payload
+import me.daehokimm.gaproxy.dto.Payload
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

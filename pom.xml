@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>me.daehokimm</groupId>
-	<artifactId>notion-ga-proxy</artifactId>
+	<artifactId>ga-proxy</artifactId>
 	<version>0.0.1</version>
-	<name>notion-ga-proxy</name>
-	<description>Notion GA proxy server</description>
+	<name>ga-proxy</name>
+	<description>GA proxy server</description>
 
 	<properties>
 		<java.version>1.8</java.version>

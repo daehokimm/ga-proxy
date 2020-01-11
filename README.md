@@ -1,10 +1,10 @@
-# Notion Google Analytics Proxy Server
+# Google Analytics Proxy Server
 
-노션 페이지 뷰(`pageview`) 이벤트를 수집하기 위한 프록시 서버입니다. 
+페이지 뷰(`pageview`) 이벤트를 수집하기 위한 프록시 서버입니다. 
 
 *이 프로젝트는 [notion-ga 프로젝트](https://github.com/mskims/notion-ga)에서 아이디어를 얻었습니다.*
 
-## Getting started
+## Getting started - Collect hits at notion blog 
 
 1. 네트워크로 연결 가능한 서버에 배포합니다.
 1. 노션 블로그 글에 `/hits` API 경로를 가지는 이미지를 삽입합니다.

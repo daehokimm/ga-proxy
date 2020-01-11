@@ -1,7 +1,7 @@
-package me.daehokimm.notiongaproxy.api
+package me.daehokimm.gaproxy.api
 
-import me.daehokimm.notiongaproxy.dto.HitInfo
-import me.daehokimm.notiongaproxy.service.ProxyService
+import me.daehokimm.gaproxy.dto.HitInfo
+import me.daehokimm.gaproxy.service.ProxyService
 import org.slf4j.LoggerFactory
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

@@ -1,4 +1,4 @@
-package me.daehokimm.notiongaproxy
+package me.daehokimm.gaproxy
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -6,8 +6,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 
 @EnableFeignClients
 @SpringBootApplication
-class NotionGaProxyApplication
+class GaProxyApplication
 
 fun main(args: Array<String>) {
-	runApplication<NotionGaProxyApplication>(*args)
+	runApplication<GaProxyApplication>(*args)
 }

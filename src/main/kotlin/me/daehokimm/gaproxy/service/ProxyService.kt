@@ -1,7 +1,7 @@
-package me.daehokimm.notiongaproxy.service
+package me.daehokimm.gaproxy.service
 
-import me.daehokimm.notiongaproxy.dto.HitInfo
-import me.daehokimm.notiongaproxy.dto.Payload
+import me.daehokimm.gaproxy.dto.HitInfo
+import me.daehokimm.gaproxy.dto.Payload
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service

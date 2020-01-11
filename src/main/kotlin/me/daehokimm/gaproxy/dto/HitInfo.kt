@@ -1,4 +1,4 @@
-package me.daehokimm.notiongaproxy.dto
+package me.daehokimm.gaproxy.dto
 
 data class HitInfo(
         val userAgent: String,
