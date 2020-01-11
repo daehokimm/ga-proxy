@@ -21,9 +21,6 @@ class ProxyApi(
             @RequestHeader("Host") host: String,
             @RequestParam("page") targetPage: String
     ): ResponseEntity<Any> {
-        if(!targetPage.startsWith("/"))
-            return ResponseEntity.badRequest().build()
-
         logger.info("$targetPage is hit!")
         proxyService.reportHitToGA(HitInfo(userAgent, host, targetPage))
         return ResponseEntity.ok().build()
