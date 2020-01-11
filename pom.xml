@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>me.daehokimm</groupId>
 	<artifactId>ga-proxy</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>ga-proxy</name>
 	<description>GA proxy server</description>
 
