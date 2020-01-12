@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>me.daehokimm</groupId>
 	<artifactId>ga-proxy</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<name>ga-proxy</name>
 	<description>GA proxy server</description>
 
@@ -65,6 +65,7 @@
 	<build>
 		<sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
 		<testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
+		<finalName>app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
