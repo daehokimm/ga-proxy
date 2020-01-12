@@ -21,7 +21,7 @@ class ProxyApi(
     @ResponseBody
     @GetMapping(
             value = ["/hits"],
-            produces = [MediaType.IMAGE_PNG_VALUE]
+            produces = [MediaType.IMAGE_GIF_VALUE]
     )
     fun collectHits(
             @RequestHeader("User-Agent") userAgent: String,
@@ -30,7 +30,7 @@ class ProxyApi(
     ): ByteArray? {
         logger.info("$targetPage is hit!")
         proxyService.reportHitToGA(HitInfo(userAgent, host, targetPage))
-        val `in`: InputStream = javaClass.getResourceAsStream("/images/ok.png")
+        val `in`: InputStream = javaClass.getResourceAsStream("/images/ok.gif")
         return IOUtils.toByteArray(`in`)
     }
 }
